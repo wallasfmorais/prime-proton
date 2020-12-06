@@ -9,4 +9,5 @@ Likely a wysiwyg the user compose the UI with drag-drop components, edit propert
 
 ###### I'll commit / push directly to the master just while I'm alone in this rodeo.
 
-Se você for um brasileiro, português ou tem o português com língua nativa e estiver interessado em ajudar, além de ficar a vontade para fazer via Issue e/ou PR, não deixe de me envia uma mensagem aqui ou no twitter [@wallasfmorais](https://twitter.com/wallasfmorais).
+If you speak english or portuguese feel fre to contact me here or twitter [@wallasfmorais](https://twitter.com/wallasfmorais).
+Se você fala português estiver interessado em ajudar, além de ficar a vontade para fazer via Issue e/ou PR, não deixe de me envia uma mensagem aqui ou no twitter [@wallasfmorais](https://twitter.com/wallasfmorais).
