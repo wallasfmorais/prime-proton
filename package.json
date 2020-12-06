@@ -1,0 +1,32 @@
+{
+  "name": "prime-proton",
+  "version": "0.0.1",
+  "description": "POC of a UI Design Visual Editor, using ElectronJS, React, PrimeNg. PrimeIcons, PrimeFlex, InversifyJS etc.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "shx rm -rf coverage && ng test --watch=false --sourceMap=true --browsers=ChromeHeadlessNoSandbox --codeCoverage=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallasfmorais/prime-proton.git"
+  },
+  "keywords": [
+    "PrimeProton"
+  ],
+  "author": "Wallas F. Morais @wallasfmorais",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/wallasfmorais/prime-proton/issues"
+  },
+  "homepage": "https://github.com/wallasfmorais/prime-proton#readme",
+  "devDependencies": {
+    "@angular/cli": "^10.2.0",
+    "electron": "^11.0.3",
+    "inversify": "^5.0.1",
+    "primeflex": "^2.0.0",
+    "primeicons": "^4.1.0",
+    "primeng": "^11.0.0-rc.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
