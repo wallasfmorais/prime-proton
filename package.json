@@ -1,10 +1,11 @@
 {
   "name": "prime-proton",
   "version": "0.0.1",
-  "description": "POC of a UI Design Visual Editor, using ElectronJS, React, PrimeNg. PrimeIcons, PrimeFlex, InversifyJS etc.",
+  "description": "POC of a UI Design Visual Editor, using ElectronJS, React, PrimeNg, PrimeReact, PrimeIcons, PrimeFlex, InversifyJS, Angular, Next, etc.",
   "main": "src/index.js",
   "scripts": {
-    "test": "shx rm -rf coverage && ng test --watch=false --sourceMap=true --browsers=ChromeHeadlessNoSandbox --codeCoverage=true"
+    "test": "shx rm -rf coverage && ng test --watch=false --sourceMap=true --browsers=ChromeHeadlessNoSandbox --codeCoverage=true",
+    "electron": "electron electron.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,10 @@
     "primeicons": "^4.1.0",
     "primeng": "^11.0.0-rc.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "electron-is-dev": "^1.2.0",
+    "next": "^10.0.3",
+    "primereact": "^5.0.2"
   }
 }
