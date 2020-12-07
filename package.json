@@ -4,8 +4,12 @@
   "description": "POC of a UI Design Visual Editor, using ElectronJS, React, PrimeNg, PrimeReact, PrimeIcons, PrimeFlex, InversifyJS, Angular, Next, etc.",
   "main": "src/index.js",
   "scripts": {
-    "test": "shx rm -rf coverage && ng test --watch=false --sourceMap=true --browsers=ChromeHeadlessNoSandbox --codeCoverage=true",
-    "electron": "electron electron.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "electron": "electron electron.js",
+    "test": "jest --watch",
+    "coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -22,16 +26,22 @@
   "homepage": "https://github.com/wallasfmorais/prime-proton#readme",
   "devDependencies": {
     "@angular/cli": "^10.2.0",
+    "@babel/core": "^7.12.9",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@types/jest": "^26.0.16",
+    "babel-jest": "^26.6.3",
     "electron": "^11.0.3",
+    "electron-is-dev": "^1.2.0",
     "inversify": "^5.0.1",
+    "jest": "^26.6.3",
+    "next": "^10.0.3",
     "primeflex": "^2.0.0",
     "primeicons": "^4.1.0",
     "primeng": "^11.0.0-rc.2",
+    "primereact": "^5.0.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-router-dom": "^5.2.0",
-    "electron-is-dev": "^1.2.0",
-    "next": "^10.0.3",
-    "primereact": "^5.0.2"
+    "react-router-dom": "^5.2.0"
   }
 }

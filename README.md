@@ -1,7 +1,11 @@
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/wallasfmorais/prime-proton)
 
 # prime-proton (WIP)
-POC of a UI Design Visual Editor, using ElectronJS, React, PrimeNg. PrimeIcons, PrimeFlex, InversifyJS etc. 
+
+POC of a UI Design Visual Editor, using ElectronJS, React, PrimeNg, PrimeReact PrimeIcons, PrimeFlex, InversifyJS etc.
+
+Where the Angular, PrimeNg e Inversify are only for the result project by the user.
+For development, is Next, React, PrimeReact and others.
 
 The solution most run with ElectronJS or one recent browser (2020 foward).
 
